@@ -41,7 +41,7 @@ client.on("message", async message => {
 });
 
 client.on('ready', function(){
-client.user.setActivity('Justice pour les Arménien !').catch(console.error)})
+client.user.setActivity('Justice pour les Arméniens !').catch(console.error)})
 async function execute(message, serverQueue) {
   const args = message.content.split(" ");
 
